@@ -9,7 +9,7 @@ exports.config = {
                 browserName: 'chrome',
                 acceptInsecureCerts: true,
                 'goog:chromeOptions': {
-                    args: ['--incognito', '--no-sandbox', '--disable-dev-shm-usage', '--lang=en_US']
+                    args: ['--incognito', '--no-sandbox', '--disable-dev-shm-usage', '--lang=en_US', '--headless']
                 },
             },
         ],
