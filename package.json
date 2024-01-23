@@ -1,0 +1,30 @@
+{
+  "name": "vk_api_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "wdio run configs/wdio.chrome.conf.js",
+    "test:firefox": "wdio run configs/wdio.firefox.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.27.2",
+    "@wdio/local-runner": "^8.27.2",
+    "@wdio/mocha-framework": "^8.27.2",
+    "@wdio/spec-reporter": "^8.27.2",
+    "chai": "^4.3.6",
+    "chromedriver": "^120.0.1",
+    "wdio-chromedriver-service": "^8.1.1",
+    "winston": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "img-diff-js": "^0.5.2",
+    "txtgen": "^3.0.6"
+  }
+}
